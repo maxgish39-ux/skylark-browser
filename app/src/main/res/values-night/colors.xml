@@ -1,0 +1,9 @@
+<resources>
+    <color name="sky_bg">#0E1018</color>
+    <color name="sky_pill">#1C1F2B</color>
+    <color name="sky_ink">#ECEEF6</color>
+    <color name="sky_muted">#9AA2B8</color>
+    <color name="sky_line">#2A2E3D</color>
+    <color name="sky_accent">#8B8DFF</color>
+    <color name="sky_card">#161925</color>
+</resources>

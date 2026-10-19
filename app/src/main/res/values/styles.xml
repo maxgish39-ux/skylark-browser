@@ -1,0 +1,10 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/sky_accent</item>
+        <item name="android:colorPrimary">@color/sky_accent</item>
+        <item name="android:windowBackground">@color/sky_bg</item>
+        <item name="android:statusBarColor">@color/sky_bg</item>
+        <item name="android:navigationBarColor">@color/sky_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
