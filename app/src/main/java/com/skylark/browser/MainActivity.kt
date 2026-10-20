@@ -765,7 +765,7 @@ class MainActivity : Activity() {
                 customView = view
                 customCallback = callback
                 root.addView(view, LinearLayout.LayoutParams(-1, -1))
-                setImmersive(true)
+                setImmersiveUi(true)
             }
 
             override fun onHideCustomView() { hideCustomView() }
@@ -839,10 +839,10 @@ class MainActivity : Activity() {
         customView = null
         customCallback?.onCustomViewHidden()
         customCallback = null
-        setImmersive(false)
+        setImmersiveUi(false)
     }
 
-    private fun setImmersive(on: Boolean) {
+    private fun setImmersiveUi(on: Boolean) {
         if (Build.VERSION.SDK_INT >= 30) {
             val c = window.insetsController ?: return
             if (on) {
